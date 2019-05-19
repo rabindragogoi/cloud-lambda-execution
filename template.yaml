@@ -16,7 +16,7 @@ Resources:
     Properties:
       FunctionName: GetHelloNote
       Description: Description for helloworld
-      Role: arn:aws:iam::950713178023:role/cloudformationServiceRole
+      Role: arn:aws:iam::950713178023:role/lambda-role
       CodeUri: hello-world/
       Handler: app.lambda_handler
       Runtime: python3.7
